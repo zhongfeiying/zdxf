@@ -1,0 +1,4 @@
+main.o: main.c C:/msys64/usr/local/include/lua.h \
+ C:/msys64/usr/local/include/luaconf.h \
+ C:/msys64/usr/local/include/lualib.h C:/msys64/usr/local/include/lua.h \
+ C:/msys64/usr/local/include/lauxlib.h

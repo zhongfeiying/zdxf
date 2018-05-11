@@ -1,0 +1,5 @@
+dl_dxf.o: dl_dxf.cpp dl_dxf.h dl_global.h dl_attributes.h dl_codes.h \
+ dl_entities.h dl_writer_ascii.h dl_writer.h dl_creationadapter.h \
+ dl_creationinterface.h dl_extrusion.h
+dl_writer_ascii.o: dl_writer_ascii.cpp dl_writer_ascii.h dl_global.h \
+ dl_writer.h dl_attributes.h dl_codes.h dl_exception.h

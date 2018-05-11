@@ -1,0 +1,273 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CC	makefile	/^CC = $(BIN)gcc $/;"	m
+CFLAGS	makefile	/^CFLAGS = $/;"	m
+C_PROC	makefile	/^C_PROC = -DENABLE_TRACE$/;"	m
+C_PROC	makefile	/^C_PROC= $/;"	m
+DEPS	makefile	/^DEPS = $(PRJ).dep$/;"	m
+EXP	makefile	/^EXP = $(PRJ).exp$/;"	m
+EXTRAINC	iup/iup_attrib.c	/^#define EXTRAINC(/;"	d	file:
+EXTRAINC	iup/iup_attrib.c	/^#undef EXTRAINC$/;"	d	file:
+FONT_BOLD	iup/iup_font.c	/^ FONT_BOLD   = 1,$/;"	e	enum:__anon1	file:
+FONT_ITALIC	iup/iup_font.c	/^ FONT_ITALIC = 2,$/;"	e	enum:__anon1	file:
+FONT_PLAIN	iup/iup_font.c	/^ FONT_PLAIN  = 0,$/;"	e	enum:__anon1	file:
+FONT_STRIKEOUT	iup/iup_font.c	/^ FONT_STRIKEOUT = 8$/;"	e	enum:__anon1	file:
+FONT_UNDERLINE	iup/iup_font.c	/^ FONT_UNDERLINE = 4,$/;"	e	enum:__anon1	file:
+HPPS	makefile	/^HPPS :=$(wildcard *.h)$/;"	m
+INCPATH	makefile	/^INCPATH = -I\/usr\/local\/include$/;"	m
+IUPAF_CALLBACK	iup/iup_attrib.h	/^  IUPAF_CALLBACK=256,  \/**< is a callback, not an attribute *\/$/;"	e	enum:_IattribFlags
+IUPAF_DEFAULT	iup/iup_attrib.h	/^  IUPAF_DEFAULT=0,     \/**< inheritable, can has a default value, is a string, can call the set\/get functions only if mapped, no ID *\/$/;"	e	enum:_IattribFlags
+IUPAF_HAS_ID	iup/iup_attrib.h	/^  IUPAF_HAS_ID=16,     \/**< can has an ID at the end of the name, automatically set by \\ref iupClassRegisterAttributeId *\/$/;"	e	enum:_IattribFlags
+IUPAF_HAS_ID2	iup/iup_attrib.h	/^  IUPAF_HAS_ID2=128,   \/**< can has two IDs at the end of the name, automatically set by \\ref iupClassRegisterAttributeId2 *\/$/;"	e	enum:_IattribFlags
+IUPAF_IHANDLE	iup/iup_attrib.h	/^  IUPAF_IHANDLE=4096         \/**< is an Ihandle* *\/$/;"	e	enum:_IattribFlags
+IUPAF_IHANDLENAME	iup/iup_attrib.h	/^  IUPAF_IHANDLENAME=2048,    \/**< is an Ihandle* name, associated with IupSetHandle *\/$/;"	e	enum:_IattribFlags
+IUPAF_NOT_MAPPED	iup/iup_attrib.h	/^  IUPAF_NOT_MAPPED=8,  \/**< will call the set\/get functions also when not mapped *\/$/;"	e	enum:_IattribFlags
+IUPAF_NOT_SUPPORTED	iup/iup_attrib.h	/^  IUPAF_NOT_SUPPORTED=1024,  \/**< not supported in that driver *\/$/;"	e	enum:_IattribFlags
+IUPAF_NO_DEFAULTVALUE	iup/iup_attrib.h	/^  IUPAF_NO_DEFAULTVALUE=2,  \/**< can not has a default value *\/$/;"	e	enum:_IattribFlags
+IUPAF_NO_INHERIT	iup/iup_attrib.h	/^  IUPAF_NO_INHERIT=1,  \/**< is not inheritable *\/$/;"	e	enum:_IattribFlags
+IUPAF_NO_SAVE	iup/iup_attrib.h	/^  IUPAF_NO_SAVE=512,   \/**< can NOT be directly saved, should have at least manual processing *\/$/;"	e	enum:_IattribFlags
+IUPAF_NO_STRING	iup/iup_attrib.h	/^  IUPAF_NO_STRING=4,   \/**< is not a string *\/$/;"	e	enum:_IattribFlags
+IUPAF_READONLY	iup/iup_attrib.h	/^  IUPAF_READONLY=32,   \/**< is read-only, can not be changed *\/$/;"	e	enum:_IattribFlags
+IUPAF_WRITEONLY	iup/iup_attrib.h	/^  IUPAF_WRITEONLY=64,  \/**< is write-only, usually an action *\/$/;"	e	enum:_IattribFlags
+IUPTABLE_FUNCPOINTER	iup/iup_table.h	/^  IUPTABLE_FUNCPOINTER  \/**< function pointer *\/$/;"	e	enum:_Itable_Types
+IUPTABLE_POINTER	iup/iup_table.h	/^  IUPTABLE_POINTER,     \/**< regular pointer for strings and other pointers *\/$/;"	e	enum:_Itable_Types
+IUPTABLE_POINTERINDEXED	iup/iup_table.h	/^  IUPTABLE_POINTERINDEXED = 10, \/**< a pointer address is used as key. *\/$/;"	e	enum:_Itable_IndexTypes
+IUPTABLE_STRING	iup/iup_table.h	/^  IUPTABLE_STRING,      \/**< string duplicated internally *\/$/;"	e	enum:_Itable_Types
+IUPTABLE_STRINGINDEXED	iup/iup_table.h	/^  IUPTABLE_STRINGINDEXED        \/**< a string as key *\/$/;"	e	enum:_Itable_IndexTypes
+IUP_CHECKIDSEP	iup/iup_attrib.h	/^#define IUP_CHECKIDSEP(/;"	d
+IUP_ERROR	iup/iup_op.h	/^#define IUP_ERROR /;"	d
+IUP_FLOAT2STR	iup/iup_font.c	/^#define IUP_FLOAT2STR /;"	d	file:
+IUP_INVALID	iup/iup_op.h	/^#define IUP_INVALID /;"	d
+IUP_INVALID_ID	iup/iup_op.h	/^#define IUP_INVALID_ID /;"	d
+IUP_NOERROR	iup/iup_op.h	/^#define IUP_NOERROR /;"	d
+IUP_OPENED	iup/iup_op.h	/^#define IUP_OPENED /;"	d
+IUP_STR_EQUAL	iup/iup_attrib.h	/^#define IUP_STR_EQUAL(/;"	d
+IattribFlags	iup/iup_attrib.h	/^} IattribFlags;$/;"	t	typeref:enum:_IattribFlags
+IattribFunc	iup/iup_attrib.h	/^} IattribFunc;$/;"	t	typeref:struct:_IattribFunc
+IattribGetFunc	iup/iup_attrib.h	/^typedef char* (*IattribGetFunc)(Ihandle* ih);$/;"	t
+IattribGetId2Func	iup/iup_attrib.h	/^typedef char* (*IattribGetId2Func)(Ihandle* ih, int id1, int id2);$/;"	t
+IattribGetIdFunc	iup/iup_attrib.h	/^typedef char* (*IattribGetIdFunc)(Ihandle* ih, int id);$/;"	t
+IattribSetFunc	iup/iup_attrib.h	/^typedef int (*IattribSetFunc)(Ihandle* ih, const char* value);$/;"	t
+Iclass	iup/iup_class.h	/^typedef struct Iclass_ Iclass;$/;"	t	typeref:struct:Iclass_
+Iclass_	iup/iup_class.h	/^struct Iclass_$/;"	s
+IdrawCanvas	iup/iup_drvdraw.h	/^typedef struct _IdrawCanvas IdrawCanvas;$/;"	t	typeref:struct:_IdrawCanvas
+Ihandle	iup/iup_object.h	/^typedef struct Ihandle_ Ihandle;$/;"	t	typeref:struct:Ihandle_
+Ihandle	iup/iup_op.h	/^typedef struct Ihandle_ Ihandle;$/;"	t	typeref:struct:Ihandle_
+Ihandle_	iup/iup_object.h	/^struct Ihandle_$/;"	s
+InativeHandle	iup/iup_object.h	/^typedef struct HWND__ InativeHandle;$/;"	t	typeref:struct:HWND__
+InativeHandle	iup/iup_object.h	/^typedef struct _GtkWidget InativeHandle;$/;"	t	typeref:struct:_GtkWidget
+InativeHandle	iup/iup_object.h	/^typedef struct _InativeHandle InativeHandle;$/;"	t	typeref:struct:_InativeHandle
+InativeHandle	iup/iup_object.h	/^typedef struct _WidgetRec InativeHandle;$/;"	t	typeref:struct:_WidgetRec
+Itable	iup/iup_table.h	/^typedef struct _Itable Itable;$/;"	t	typeref:struct:_Itable
+ItableContext	iup/iup_table.h	/^} ItableContext;$/;"	t	typeref:struct:_ItableContext
+ItableEntry	iup/iup_table.h	/^ItableEntry;$/;"	t	typeref:struct:_ItableEntry
+ItableItem	iup/iup_table.h	/^ItableItem;$/;"	t	typeref:struct:_ItableItem
+ItableKey	iup/iup_table.h	/^ItableKey;$/;"	t	typeref:struct:_ItableKey
+Itable_IndexTypes	iup/iup_table.h	/^} Itable_IndexTypes;$/;"	t	typeref:enum:_Itable_IndexTypes
+Itable_Types	iup/iup_table.h	/^} Itable_Types;$/;"	t	typeref:enum:_Itable_Types
+IupDrawLine	iup/iupdraw.c	/^void IupDrawLine(Ihandle* ih, int x1, int y1, int x2, int y2)$/;"	f
+IupGetAttribute	iup/iup_attrib.c	/^char* IupGetAttribute(Ihandle *ih, const char* name)$/;"	f
+IupGetGlobal	iup/iup_attrib.c	/^char* IupGetGlobal(const char *name)$/;"	f
+IupGetRGB	iup/iup_attrib.c	/^void IupGetRGB(Ihandle *ih, const char* name, unsigned char *r, unsigned char *g, unsigned char *b)$/;"	f
+LDFLAGS	makefile	/^LDFLAGS = -pipe -shared $/;"	m
+LIBPATH	makefile	/^LIBPATH = -L\/usr\/local\/lib$/;"	m
+LIBS	makefile	/^LIBS = -ltrace -lcomctl32 -lole32 -lopengl32 -llua -liphlpapi -lgdi32$/;"	m
+MAX_BUFFERS	iup/iup_font.c	/^#define MAX_BUFFERS /;"	d	file:
+MAX_BUFFERS	iup/iup_font.c	/^#undef MAX_BUFFERS$/;"	d	file:
+OBJS	makefile	/^OBJS :=$(patsubst %.c,%.o,$(SRCS))$/;"	m
+PRJ	makefile	/^PRJ = luagdi$/;"	m
+Pen_Info	dc_base.h	/^typedef struct Pen_Info_ Pen_Info;$/;"	t	typeref:struct:Pen_Info_
+Pen_Info_	dc_base.h	/^struct Pen_Info_$/;"	s
+RRCS	makefile	/^RRCS :=$(wildcard *.rc)$/;"	m
+RRCS_OBJS	makefile	/^RRCS_OBJS :=$(patsubst %.rc,%.res,$(RRCS))$/;"	m
+SF	iup/iup_attrib.c	/^#define SF(/;"	d	file:
+SF	iup/iup_attrib.c	/^#undef SF$/;"	d	file:
+SMALL_MAX_BUFFERS	iup/iup_font.c	/^#define SMALL_MAX_BUFFERS /;"	d	file:
+SMALL_MAX_BUFFERS	iup/iup_font.c	/^#undef SMALL_MAX_BUFFERS$/;"	d	file:
+SMALL_SIZE	iup/iup_font.c	/^#define SMALL_SIZE /;"	d	file:
+SMALL_SIZE	iup/iup_font.c	/^#undef SMALL_SIZE /;"	d	file:
+SRCS	makefile	/^SRCS :=$(wildcard *.c)$/;"	m
+STYLE_NUM_NAMES	iup/iup_font.c	/^#define STYLE_NUM_NAMES /;"	d	file:
+WINDRES	makefile	/^WINDRES = $(BIN)windres$/;"	m
+_BITMAP_H	bitmap.h	/^#define _BITMAP_H$/;"	d
+_DC_BASE_H	dc_base.h	/^#define _DC_BASE_H$/;"	d
+_DRAW_H	draw.h	/^#define _DRAW_H$/;"	d
+_FONT_H	font.h	/^#define _FONT_H$/;"	d
+_IattribFlags	iup/iup_attrib.h	/^typedef enum _IattribFlags{$/;"	g
+_IattribFunc	iup/iup_attrib.h	/^typedef struct _IattribFunc$/;"	s
+_IdrawCanvas	iup/iupwin_draw.c	/^struct _IdrawCanvas{$/;"	s	file:
+_Itable	iup/iup_table.h	/^struct _Itable$/;"	s
+_ItableContext	iup/iup_table.h	/^typedef struct _ItableContext$/;"	s
+_ItableEntry	iup/iup_table.h	/^typedef struct _ItableEntry$/;"	s
+_ItableItem	iup/iup_table.h	/^typedef struct _ItableItem$/;"	s
+_ItableKey	iup/iup_table.h	/^typedef struct _ItableKey$/;"	s
+_Itable_IndexTypes	iup/iup_table.h	/^typedef enum _Itable_IndexTypes$/;"	g
+_Itable_Types	iup/iup_table.h	/^typedef enum _Itable_Types$/;"	g
+_OP_BASE_H	op_base.h	/^#define _OP_BASE_H$/;"	d
+_PEN_H	pen.h	/^#define _PEN_H$/;"	d
+_TEXT_H	text.h	/^#define _TEXT_H$/;"	d
+__IUPDRAW_H	iup/iup_font.h	/^#define __IUPDRAW_H$/;"	d
+__IUPDRAW_H	iup/iupdraw.h	/^#define __IUPDRAW_H$/;"	d
+__IUPWIN_INFO_H	iup/iupwin_info.h	/^#define __IUPWIN_INFO_H$/;"	d
+__IUP_ASSERT_H	iup/iup_assert.h	/^#define __IUP_ASSERT_H$/;"	d
+__IUP_ATTRIB_H	iup/iup_attrib.h	/^#define __IUP_ATTRIB_H$/;"	d
+__IUP_CLASS_H	iup/iup_class.h	/^#define __IUP_CLASS_H$/;"	d
+__IUP_DRVDRAW_H	iup/iup_drvdraw.h	/^#define __IUP_DRVDRAW_H$/;"	d
+__IUP_OBJECT_H	iup/iup_object.h	/^#define __IUP_OBJECT_H$/;"	d
+__IUP_PRIVATE_H	iup/iup_op.h	/^#define __IUP_PRIVATE_H$/;"	d
+__IUP_TABLE_H	iup/iup_table.h	/^#define __IUP_TABLE_H$/;"	d
+attrib	iup/iup_object.h	/^  Itable* attrib;        \/**< attributes table *\/$/;"	m	struct:Ihandle_
+attrib_func	iup/iup_class.h	/^  Itable* attrib_func; \/**< table of functions to handle attributes, only one per class tree *\/$/;"	m	struct:Iclass_
+b	dc_base.h	/^	int b;$/;"	m	struct:Pen_Info_
+bit_blt	bitmap.c	/^int bit_blt(lua_State *L)$/;"	f
+brother	iup/iup_object.h	/^  Ihandle* brother;      \/**< next control inside parent *\/$/;"	m	struct:Ihandle_
+call_global_default	iup/iup_attrib.h	/^  int call_global_default;$/;"	m	struct:_IattribFunc
+childtype	iup/iup_class.h	/^  int childtype;   \/**< children count enum: none, many, or n, as described in \\ref IchildType. Default is IUP_CHILDNONE. \\n$/;"	m	struct:Iclass_
+context	iup/iup_table.h	/^  ItableContext        context;$/;"	m	struct:_Itable
+create_compatible_bitmap	bitmap.c	/^int create_compatible_bitmap(lua_State *L)$/;"	f
+create_compatible_dc	dc_base.c	/^int create_compatible_dc(lua_State *L)$/;"	f
+create_font_indirect_a	font.c	/^int create_font_indirect_a(lua_State *L)$/;"	f
+create_pen	pen.c	/^int create_pen(lua_State *L)$/;"	f
+create_rect_rgn	dc_base.c	/^int create_rect_rgn(lua_State *L)$/;"	f
+create_solid_brush	pen.c	/^int create_solid_brush(lua_State *L)$/;"	f
+currentheight	iup/iup_object.h	/^  int currentwidth, currentheight; \/**< actual size of the control in pixels (window size, including decorations and margins). *\/$/;"	m	struct:Ihandle_
+currentwidth	iup/iup_object.h	/^  int currentwidth, currentheight; \/**< actual size of the control in pixels (window size, including decorations and margins). *\/$/;"	m	struct:Ihandle_
+default_value	iup/iup_attrib.h	/^  const char* default_value;$/;"	m	struct:_IattribFunc
+delete_dc	dc_base.c	/^int delete_dc(lua_State *L)$/;"	f
+delete_object	dc_base.c	/^int delete_object(lua_State *L)$/;"	f
+dp_to_lp	dc_base.c	/^int dp_to_lp(lua_State *L)$/;"	f
+draw_angle_arc	draw.c	/^int draw_angle_arc(lua_State *L)$/;"	f
+draw_arc	draw.c	/^int draw_arc(lua_State *L)$/;"	f
+draw_ellipse	draw.c	/^int draw_ellipse(lua_State *L)$/;"	f
+draw_line	draw.c	/^int draw_line(lua_State *L)$/;"	f
+draw_polygon	draw.c	/^int draw_polygon(lua_State *L)$/;"	f
+draw_rectangle	draw.c	/^int draw_rectangle(lua_State *L)$/;"	f
+entries	iup/iup_table.h	/^  ItableEntry          *entries;$/;"	m	struct:_Itable
+entriesSize	iup/iup_table.h	/^  unsigned int         entriesSize;$/;"	m	struct:_Itable
+entryIndex	iup/iup_table.h	/^  unsigned int entryIndex;  \/* index at the Itable::entries array *\/$/;"	m	struct:_ItableContext
+expand	iup/iup_object.h	/^  int expand;            \/**< expand configuration, a combination of \\ref Iexpand, for containers is a combination of the children expand's *\/$/;"	m	struct:Ihandle_
+ext_create_pen	pen.c	/^int ext_create_pen(lua_State *L)$/;"	f
+ext_text_out_a	text.c	/^int ext_text_out_a(lua_State *L)$/;"	f
+firstchild	iup/iup_object.h	/^  Ihandle* firstchild;   \/**< first child control in the hierarchy tree *\/$/;"	m	struct:Ihandle_
+flags	iup/iup_attrib.h	/^  int flags;$/;"	m	struct:_IattribFunc
+flags	iup/iup_object.h	/^  int flags;             \/**< flags configuration, a combination of \\ref Iflags *\/$/;"	m	struct:Ihandle_
+format	iup/iup_class.h	/^  const char* format;   \/**< Creation parameters format of the class. \\n$/;"	m	struct:Iclass_
+g	dc_base.h	/^	int g;$/;"	m	struct:Pen_Info_
+get	iup/iup_attrib.h	/^  IattribGetFunc get;$/;"	m	struct:_IattribFunc
+get_device_caps	dc_base.c	/^int get_device_caps(lua_State *L)$/;"	f
+get_line_style	dc_base.c	/^int get_line_style(int line_style)$/;"	f
+get_object_a	dc_base.c	/^int get_object_a(lua_State *L)$/;"	f
+get_pen_info	op_base.c	/^Pen_Info get_pen_info(lua_State *L,int pos)$/;"	f
+get_pen_style	dc_base.c	/^int get_pen_style(const char* pen_style)$/;"	f
+get_stock_object	dc_base.c	/^int get_stock_object(lua_State *L)$/;"	f
+get_text_extent_point_32a	text.c	/^int get_text_extent_point_32a(lua_State *L)$/;"	f
+h	iup/iupwin_draw.c	/^  int w, h;$/;"	m	struct:_IdrawCanvas	file:
+hBitmap	iup/iupwin_draw.c	/^  HBITMAP hBitmap, hOldBitmap;$/;"	m	struct:_IdrawCanvas	file:
+hBitmapDC	iup/iupwin_draw.c	/^  HDC hBitmapDC, hDC;$/;"	m	struct:_IdrawCanvas	file:
+hDC	iup/iupwin_draw.c	/^  HDC hBitmapDC, hDC;$/;"	m	struct:_IdrawCanvas	file:
+hOldBitmap	iup/iupwin_draw.c	/^  HBITMAP hBitmap, hOldBitmap;$/;"	m	struct:_IdrawCanvas	file:
+hWnd	iup/iupwin_draw.c	/^  HWND hWnd;$/;"	m	struct:_IdrawCanvas	file:
+handle	iup/iup_object.h	/^  InativeHandle* handle; \/**< native handle. initialized when mapped. InativeHandle definition is system dependent. *\/$/;"	m	struct:Ihandle_
+has_attrib_id	iup/iup_class.h	/^  int has_attrib_id;  \/**< indicate if any attribute is numbered. Default is not. Can be 1 or 2. *\/$/;"	m	struct:Iclass_
+iClassCutNameId	iup/iup_attrib.c	/^static const char* iClassCutNameId(const char* name, const char* name_id)$/;"	f	file:
+iClassFindId	iup/iup_attrib.c	/^static const char* iClassFindId(const char* name)$/;"	f	file:
+iClassGetDefaultValue	iup/iup_attrib.c	/^static char* iClassGetDefaultValue(IattribFunc* afunc)$/;"	f	file:
+iDrawGetLineStyle	iup/iupwin_draw.c	/^static int iDrawGetLineStyle(int style)$/;"	f	file:
+iDrawGetStyle	iup/iupdraw.c	/^static int iDrawGetStyle(Ihandle* ih)$/;"	f	file:
+iFontFindStyleName	iup/iup_font.c	/^static int iFontFindStyleName(const char *name, int len, int *style)$/;"	f	file:
+iFontGetStyleWord	iup/iup_font.c	/^static const char * iFontGetStyleWord(const char *str, const char *last, int *wordlen)$/;"	f	file:
+iStrDupUntilNoCase	iup/iup_attrib.c	/^static char *iStrDupUntilNoCase(char **str, char sep)$/;"	f	file:
+iTableFindItem	iup/iup_attrib.c	/^static unsigned int iTableFindItem(Itable *it, const char *key, ItableEntry **entry, $/;"	f	file:
+iTableGetEntryIndex	iup/iup_attrib.c	/^static unsigned int iTableGetEntryIndex(Itable *it, const char *key, unsigned long *keyIndex)$/;"	f	file:
+iclass	iup/iup_object.h	/^  Iclass* iclass;        \/**< Ihandle Class *\/$/;"	m	struct:Ihandle_
+iglobal_table	iup/iup_attrib.c	/^static Itable *iglobal_table = NULL;$/;"	v	file:
+ih	iup/iupwin_draw.c	/^  Ihandle* ih;$/;"	m	struct:_IdrawCanvas	file:
+indexType	iup/iup_table.h	/^  Itable_IndexTypes    indexType;  \/* type of the index: string or pointer. *\/$/;"	m	struct:_Itable
+is_interactive	iup/iup_class.h	/^  int is_interactive; \/**< keyboard interactive boolean, $/;"	m	struct:Iclass_
+is_style_sep	iup/iup_font.c	/^#define is_style_sep(/;"	d	file:
+itemIndex	iup/iup_table.h	/^  unsigned int itemIndex;   \/* index at the ItableEntry::items array *\/$/;"	m	struct:_ItableContext
+itemType	iup/iup_table.h	/^  Itable_Types  itemType;$/;"	m	struct:_ItableItem
+items	iup/iup_table.h	/^  ItableItem*   items;$/;"	m	struct:_ItableEntry
+itemsSize	iup/iup_table.h	/^  unsigned int  itemsSize;$/;"	m	struct:_ItableEntry
+iupASSERT	iup/iup_assert.h	/^#define iupASSERT(/;"	d
+iupATTRIB_ISINTERNAL	iup/iup_attrib.h	/^#define iupATTRIB_ISINTERNAL(/;"	d
+iupAttribGet	iup/iup_attrib.c	/^char* iupAttribGet(Ihandle* ih, const char* name)$/;"	f
+iupClassObjectGetAttribute	iup/iup_attrib.c	/^char* iupClassObjectGetAttribute(Ihandle* ih, const char* name, char* *def_value, int *inherit)$/;"	f
+iupERROR	iup/iup_assert.h	/^#define iupERROR(/;"	d
+iupERROR1	iup/iup_assert.h	/^#define iupERROR1(/;"	d
+iupERROR2	iup/iup_assert.h	/^#define iupERROR2(/;"	d
+iupFontParsePango	iup/iup_font.c	/^int iupFontParsePango(const char *font, char *typeface, int *size, int *bold, int *italic, int *underline, int *strikeout)$/;"	f
+iupFontParseWin	iup/iup_font.c	/^int iupFontParseWin(const char *value, char *typeface, int *size, int *bold, int *italic, int *underline, int *strikeout)$/;"	f
+iupFontParseX	iup/iup_font.c	/^int iupFontParseX(const char *font, char *typeface, int *size, int *bold, int *italic, int *underline, int *strikeout)$/;"	f
+iupGetDefaultFontFaceGlobalAttrib	iup/iup_font.c	/^char* iupGetDefaultFontFaceGlobalAttrib(void)$/;"	f
+iupGetDefaultFontSizeGlobalAttrib	iup/iup_font.c	/^char* iupGetDefaultFontSizeGlobalAttrib(void)$/;"	f
+iupGetDefaultFontStyleGlobalAttrib	iup/iup_font.c	/^char* iupGetDefaultFontStyleGlobalAttrib(void)$/;"	f
+iupGetFontInfo	iup/iup_font.c	/^int iupGetFontInfo(const char* font, char *typeface, int *size, int *is_bold, int *is_italic, int *is_underline, int *is_strikeout)$/;"	f
+iupObjectCheck	iup/iup_object.c	/^int iupObjectCheck(Ihandle* ih)$/;"	f
+iupStrEqual	iup/iup_attrib.c	/^int iupStrEqual(const char* str1, const char* str2) $/;"	f
+iupStrGetMemory	iup/iup_font.c	/^char *iupStrGetMemory(int size)$/;"	f
+iupStrGetSmallMem	iup/iup_font.c	/^static char* iupStrGetSmallMem(void)$/;"	f	file:
+iupStrReturnChecked	iup/iup_font.c	/^char* iupStrReturnChecked(int check)$/;"	f
+iupStrReturnFloat	iup/iup_font.c	/^char* iupStrReturnFloat(float f)$/;"	f
+iupStrReturnInt	iup/iup_font.c	/^char* iupStrReturnInt(int i)$/;"	f
+iupStrReturnIntInt	iup/iup_font.c	/^char* iupStrReturnIntInt(int i1, int i2, char sep)$/;"	f
+iupStrReturnStr	iup/iup_font.c	/^char* iupStrReturnStr(const char* str)$/;"	f
+iupStrReturnStrf	iup/iup_font.c	/^char* iupStrReturnStrf(const char* format, ...)$/;"	f
+iupStrToInt	iup/iup_attrib.c	/^int iupStrToInt(const char *str, int *i)$/;"	f
+iupStrToIntInt	iup/iup_attrib.c	/^int iupStrToIntInt(const char *str, int *i1, int *i2, char sep)$/;"	f
+iupStrToRGB	iup/iup_attrib.c	/^int iupStrToRGB(const char *str, unsigned char *r, unsigned char *g, unsigned char *b)$/;"	f
+iupTableGet	iup/iup_attrib.c	/^void *iupTableGet(Itable *it, const char *key)$/;"	f
+iup_tolower	iup/iup_attrib.h	/^#define iup_tolower(/;"	d
+iup_toupper	iup/iup_attrib.h	/^#define iup_toupper(/;"	d
+iupdrvAddScreenOffset	iup/iup_attrib.c	/^void iupdrvAddScreenOffset(int *x, int *y, int add)$/;"	f
+iupdrvDrawLine	iup/iupwin_draw.c	/^void iupdrvDrawLine(IdrawCanvas* dc, int x1, int y1, int x2, int y2, unsigned char r, unsigned char g, unsigned char b, int style)$/;"	f
+iupdrvGetCursorPos	iup/iup_attrib.c	/^void iupdrvGetCursorPos(int *x, int *y)$/;"	f
+iupdrvGetCursorPos	iup/iupwin_info.cpp	/^void iupdrvGetCursorPos(int *x, int *y)$/;"	f
+iupdrvGetFullSize	iup/iup_attrib.c	/^void iupdrvGetFullSize(int *width, int *height)$/;"	f
+iupdrvGetGlobal	iup/iup_attrib.c	/^char* iupdrvGetGlobal(const char* name)$/;"	f
+iupdrvGetKeyState	iup/iup_font.c	/^void iupdrvGetKeyState(char* key)$/;"	f
+iupdrvGetScreenDepth	iup/iup_attrib.c	/^int iupdrvGetScreenDepth(void)$/;"	f
+iupdrvGetScreenDpi	iup/iup_attrib.c	/^float iupdrvGetScreenDpi(void)$/;"	f
+iupdrvGetScreenSize	iup/iup_attrib.c	/^void iupdrvGetScreenSize(int *width, int *height)$/;"	f
+iupdrvGetScrollbarSize	iup/iup_attrib.c	/^int iupdrvGetScrollbarSize(void)$/;"	f
+iupdrvLocaleInfo	iup/iup_attrib.c	/^char* iupdrvLocaleInfo(void)$/;"	f
+iuplua_checkihandle	iup/iuplua.c	/^Ihandle* iuplua_checkihandle(lua_State *L, int pos)$/;"	f
+key	iup/iup_table.h	/^  ItableKey     key;$/;"	m	struct:_ItableItem
+keyIndex	iup/iup_table.h	/^  unsigned long keyIndex;  \/* the secondary hash number *\/$/;"	m	struct:_ItableKey
+keyStr	iup/iup_table.h	/^  const char   *keyStr;$/;"	m	struct:_ItableKey
+line_style	dc_base.h	/^	int line_style;$/;"	m	struct:Pen_Info_
+line_width	dc_base.h	/^	int line_width;	$/;"	m	struct:Pen_Info_
+luaopen_luagdi	main.c	/^int luaopen_luagdi(lua_State* L) $/;"	f
+mylibs	main.c	/^static const struct  luaL_Reg mylibs[] = { $/;"	v	typeref:struct:luaL_Reg	file:
+name	iup/iup_class.h	/^  const char* name;     \/**< class name. No default, must be initialized. *\/$/;"	m	struct:Iclass_
+naturalheight	iup/iup_object.h	/^  int naturalwidth, naturalheight; \/**< the calculated size based in the control contents and the user size *\/$/;"	m	struct:Ihandle_
+naturalwidth	iup/iup_object.h	/^  int naturalwidth, naturalheight; \/**< the calculated size based in the control contents and the user size *\/$/;"	m	struct:Ihandle_
+nextItemIndex	iup/iup_table.h	/^  unsigned int  nextItemIndex;$/;"	m	struct:_ItableEntry
+numberOfEntries	iup/iup_table.h	/^  unsigned int         numberOfEntries;$/;"	m	struct:_Itable
+parent	iup/iup_class.h	/^  Iclass* parent; \/**< class parent to implement inheritance.$/;"	m	struct:Iclass_
+parent	iup/iup_object.h	/^  Ihandle* parent;       \/**< previous control in the hierarchy tree *\/$/;"	m	struct:Ihandle_
+r	dc_base.h	/^	int r;$/;"	m	struct:Pen_Info_
+release_dc	iup/iupwin_draw.c	/^  int release_dc;$/;"	m	struct:_IdrawCanvas	file:
+select_object	dc_base.c	/^int select_object(lua_State *L)$/;"	f
+serial	iup/iup_object.h	/^  int serial;            \/**< serial number used for controls that need a numeric id, initialized with -1 *\/$/;"	m	struct:Ihandle_
+set	iup/iup_attrib.h	/^  IattribSetFunc set;$/;"	m	struct:_IattribFunc
+set_bk_color	dc_base.c	/^int set_bk_color(lua_State *L)$/;"	f
+set_bk_mode	dc_base.c	/^int set_bk_mode(lua_State *L)$/;"	f
+set_pixel	dc_base.c	/^int set_pixel(lua_State *L)$/;"	f
+set_rop2	dc_base.c	/^int set_rop2(lua_State *L)$/;"	f
+set_text_align	text.c	/^int set_text_align(lua_State *L)$/;"	f
+set_text_color	text.c	/^int set_text_color(lua_State *L)$/;"	f
+sig	iup/iup_object.h	/^  char sig[4];           \/**< IUP Signature, initialized with "IUP", cleared on destroy *\/$/;"	m	struct:Ihandle_
+system_default	iup/iup_attrib.h	/^  const char* system_default;$/;"	m	struct:_IattribFunc
+tableSizeIndex	iup/iup_table.h	/^  unsigned int         tableSizeIndex;  \/* index into itable_hashTableSize array *\/$/;"	m	struct:_Itable
+text_out_a	text.c	/^int text_out_a(lua_State *L)$/;"	f
+userheight	iup/iup_object.h	/^  int    userwidth,    userheight; \/**< user defined size for the control using SIZE or RASTERSIZE *\/$/;"	m	struct:Ihandle_
+userwidth	iup/iup_object.h	/^  int    userwidth,    userheight; \/**< user defined size for the control using SIZE or RASTERSIZE *\/$/;"	m	struct:Ihandle_
+value	iup/iup_table.h	/^  void*         value;$/;"	m	struct:_ItableItem
+w	iup/iupwin_draw.c	/^  int w, h;$/;"	m	struct:_IdrawCanvas	file:
+x	iup/iup_object.h	/^  int x, y;              \/**< upper-left corner relative to the native parent. always 0 for the dialog. *\/$/;"	m	struct:Ihandle_
+y	iup/iup_object.h	/^  int x, y;              \/**< upper-left corner relative to the native parent. always 0 for the dialog. *\/$/;"	m	struct:Ihandle_

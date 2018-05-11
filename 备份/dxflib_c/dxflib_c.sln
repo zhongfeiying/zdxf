@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dxflib_c", "dxflib_c\dxflib_c.vcxproj", "{CC2FEED1-E7A2-44CA-A435-561AA9310710}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC2FEED1-E7A2-44CA-A435-561AA9310710}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CC2FEED1-E7A2-44CA-A435-561AA9310710}.Debug|Win32.Build.0 = Debug|Win32
+		{CC2FEED1-E7A2-44CA-A435-561AA9310710}.Release|Win32.ActiveCfg = Release|Win32
+		{CC2FEED1-E7A2-44CA-A435-561AA9310710}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

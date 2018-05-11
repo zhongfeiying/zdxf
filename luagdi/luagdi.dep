@@ -1,0 +1,28 @@
+bitmap.o: bitmap.c bitmap.h C:/msys64/usr/local/include/lua.h \
+ C:/msys64/usr/local/include/luaconf.h \
+ C:/msys64/usr/local/include/lauxlib.h C:/msys64/usr/local/include/lua.h
+dc_base.o: dc_base.c dc_base.h C:/msys64/usr/local/include/lua.h \
+ C:/msys64/usr/local/include/luaconf.h \
+ C:/msys64/usr/local/include/lauxlib.h C:/msys64/usr/local/include/lua.h
+draw.o: draw.c draw.h C:/msys64/usr/local/include/lua.h \
+ C:/msys64/usr/local/include/luaconf.h \
+ C:/msys64/usr/local/include/lauxlib.h C:/msys64/usr/local/include/lua.h \
+ op_base.h dc_base.h
+font.o: font.c font.h C:/msys64/usr/local/include/lua.h \
+ C:/msys64/usr/local/include/luaconf.h \
+ C:/msys64/usr/local/include/lauxlib.h C:/msys64/usr/local/include/lua.h
+main.o: main.c C:/msys64/usr/local/include/lua.h \
+ C:/msys64/usr/local/include/luaconf.h \
+ C:/msys64/usr/local/include/lauxlib.h C:/msys64/usr/local/include/lua.h \
+ dc_base.h draw.h text.h bitmap.h font.h pen.h
+op_base.o: op_base.c op_base.h C:/msys64/usr/local/include/lua.h \
+ C:/msys64/usr/local/include/luaconf.h \
+ C:/msys64/usr/local/include/lauxlib.h C:/msys64/usr/local/include/lua.h \
+ dc_base.h
+pen.o: pen.c pen.h C:/msys64/usr/local/include/lua.h \
+ C:/msys64/usr/local/include/luaconf.h \
+ C:/msys64/usr/local/include/lauxlib.h C:/msys64/usr/local/include/lua.h \
+ dc_base.h
+text.o: text.c text.h C:/msys64/usr/local/include/lua.h \
+ C:/msys64/usr/local/include/luaconf.h \
+ C:/msys64/usr/local/include/lauxlib.h C:/msys64/usr/local/include/lua.h

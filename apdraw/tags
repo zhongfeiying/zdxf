@@ -1,0 +1,188 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+APDRAW_EXPORT	ap_global.h	/^#           define APDRAW_EXPORT /;"	d
+APDRAW_EXPORT	ap_global.h	/^#       define APDRAW_EXPORT$/;"	d
+APDRAW_EXPORT	ap_global.h	/^#   define APDRAW_EXPORT$/;"	d
+AP_Arc	ap_entity.h	/^		AP_Arc(double acx, double acy, double acz,double aRadius,double aAngle1, double aAngle2) $/;"	f	class:AP_Arc
+AP_Arc	ap_entity.h	/^class APDRAW_EXPORT AP_Arc : public AP_Entity$/;"	c
+AP_Attributes	ap_property.h	/^    AP_Attributes() :$/;"	f	class:AP_Attributes
+AP_Attributes	ap_property.h	/^    AP_Attributes(const std::string& layer,$/;"	f	class:AP_Attributes
+AP_Attributes	ap_property.h	/^    AP_Attributes(const std::string& layer,int color, int color24, int width,const std::string& linetype,int handle=-1)  :$/;"	f	class:AP_Attributes
+AP_Attributes	ap_property.h	/^class APDRAW_EXPORT AP_Attributes {$/;"	c
+AP_Circle	ap_entity.h	/^		AP_Circle(double acx, double acy, double acz,double aRadius) $/;"	f	class:AP_Circle
+AP_Circle	ap_entity.h	/^class APDRAW_EXPORT AP_Circle : public AP_Entity$/;"	c
+AP_DATABASE_H_	ap_database.h	/^#define AP_DATABASE_H_$/;"	d
+AP_Database	ap_database.cpp	/^AP_Database::AP_Database()$/;"	f	class:AP_Database
+AP_Database	ap_database.h	/^class APDRAW_EXPORT AP_Database$/;"	c
+AP_ENTITY_H_	ap_entity.h	/^#define AP_ENTITY_H_$/;"	d
+AP_Entity	ap_entity.h	/^		AP_Entity() {}$/;"	f	class:AP_Entity
+AP_Entity	ap_entity.h	/^class APDRAW_EXPORT AP_Entity {$/;"	c
+AP_Layer	ap_property.h	/^    AP_Layer(const std::string& lName,int lFlags) {$/;"	f	class:AP_Layer
+AP_Layer	ap_property.h	/^class APDRAW_EXPORT AP_Layer {   $/;"	c
+AP_Line	ap_entity.h	/^		AP_Line(double lx1, double ly1, double lz1,double lx2, double ly2, double lz2) $/;"	f	class:AP_Line
+AP_Line	ap_entity.h	/^class APDRAW_EXPORT AP_Line : public AP_Entity$/;"	c
+AP_Linetype	ap_property.h	/^    AP_Linetype($/;"	f	class:AP_Linetype
+AP_Linetype	ap_property.h	/^class APDRAW_EXPORT AP_Linetype {$/;"	c
+AP_PROPERTY_H_	ap_property.h	/^#define AP_PROPERTY_H_$/;"	d
+AP_Point	ap_entity.h	/^    AP_Point(double px=0.0, double py=0.0, double pz=0.0) {$/;"	f	class:AP_Point
+AP_Point	ap_entity.h	/^class APDRAW_EXPORT AP_Point {$/;"	c
+AP_SAVE_DXF_H_	ap_save_dxf.h	/^#define AP_SAVE_DXF_H_$/;"	d
+AP_SAVE_LUA_H_	ap_save_lua.h	/^#define AP_SAVE_LUA_H_$/;"	d
+AP_Save_Dxf	ap_save_dxf.h	/^		AP_Save_Dxf() {}   $/;"	f	class:AP_Save_Dxf
+AP_Save_Dxf	ap_save_dxf.h	/^class APDRAW_EXPORT AP_Save_Dxf : public AP_Visitor$/;"	c
+AP_Save_Lua	ap_save_lua.h	/^		AP_Save_Lua() {}   $/;"	f	class:AP_Save_Lua
+AP_Save_Lua	ap_save_lua.h	/^class APDRAW_EXPORT AP_Save_Lua : public AP_Visitor$/;"	c
+AP_Style	ap_property.h	/^    AP_Style($/;"	f	class:AP_Style
+AP_Style	ap_property.h	/^class APDRAW_EXPORT AP_Style { $/;"	c
+AP_Text	ap_entity.h	/^		AP_Text(double ipx, double ipy, double ipz,double apx, double apy, double apz,double height, double xScaleFactor,$/;"	f	class:AP_Text
+AP_Text	ap_entity.h	/^class APDRAW_EXPORT AP_Text : public AP_Entity$/;"	c
+AP_VISITOR_H_	ap_visitor.h	/^#define AP_VISITOR_H_$/;"	d
+AP_Visitor	ap_visitor.h	/^		AP_Visitor() {}   $/;"	f	class:AP_Visitor
+AP_Visitor	ap_visitor.h	/^class APDRAW_EXPORT AP_Visitor$/;"	c
+CC	makefile	/^CC = $(BIN)gcc $/;"	m
+CFLAGS	makefile	/^CFLAGS = $/;"	m
+C_PROC	makefile	/^C_PROC = -DENABLE_TRACE$/;"	m
+C_PROC	makefile	/^C_PROC= $/;"	m
+DEPS	makefile	/^DEPS = $(PRJ).dep$/;"	m
+EXP	makefile	/^EXP = $(PRJ).exp$/;"	m
+HPPS	makefile	/^HPPS :=$(wildcard *.h)$/;"	m
+INCPATH	makefile	/^INCPATH = -I\/usr\/local\/include -I..\/dxflib$/;"	m
+LDFLAGS	makefile	/^LDFLAGS = -pipe -shared $/;"	m
+LIBPATH	makefile	/^LIBPATH = -L\/usr\/local\/lib -L.\/$/;"	m
+LIBS	makefile	/^LIBS = -ltrace -lstdc++ -lcomctl32 -lole32 -lopengl32 -llua -liphlpapi -lgdi32 -ldxflib$/;"	m
+OBJS	makefile	/^OBJS :=$(patsubst %.cpp,%.o,$(SRCS))$/;"	m
+PRJ	makefile	/^PRJ = apdraw$/;"	m
+RRCS	makefile	/^RRCS :=$(wildcard *.rc)$/;"	m
+RRCS_OBJS	makefile	/^RRCS_OBJS :=$(patsubst %.rc,%.res,$(RRCS))$/;"	m
+SRCS	makefile	/^SRCS :=$(wildcard *.cpp)$/;"	m
+WINDRES	makefile	/^WINDRES = $(BIN)windres$/;"	m
+accept	ap_entity.h	/^		void accept(AP_Visitor &v){v.visit_arc(*this);}$/;"	f	class:AP_Arc
+accept	ap_entity.h	/^		void accept(AP_Visitor &v){v.visit_circle(*this);}$/;"	f	class:AP_Circle
+accept	ap_entity.h	/^		void accept(AP_Visitor &v){v.visit_line(*this);}$/;"	f	class:AP_Line
+accept	ap_entity.h	/^		void accept(AP_Visitor &v){v.visit_text(*this);}$/;"	f	class:AP_Text
+add	ap_database.cpp	/^void AP_Database::add(AP_Entity* ent)$/;"	f	class:AP_Database
+add_arc	main.cpp	/^static int add_arc(lua_State *L)$/;"	f	file:
+add_circle	main.cpp	/^static int add_circle(lua_State *L)$/;"	f	file:
+add_line	main.cpp	/^static int add_line(lua_State *L)$/;"	f	file:
+add_text	main.cpp	/^static int add_text(lua_State *L)$/;"	f	file:
+angle	ap_entity.h	/^		double angle;    \/*! Rotation angle of dimension text away from default orientation. *\/$/;"	m	class:AP_Text
+angle1	ap_entity.h	/^		double angle1;    \/*! Startangle of arc in degrees. *\/$/;"	m	class:AP_Arc
+angle2	ap_entity.h	/^		double angle2;    \/*! Endangle of arc in degrees. *\/$/;"	m	class:AP_Arc
+apx	ap_entity.h	/^		double apx;    \/*! X Coordinate of alignment point. *\/$/;"	m	class:AP_Text
+apy	ap_entity.h	/^		double apy;    \/*! Y Coordinate of alignment point. *\/$/;"	m	class:AP_Text
+apz	ap_entity.h	/^		double apz;    \/*! Z Coordinate of alignment point. *\/$/;"	m	class:AP_Text
+attrib_	ap_entity.h	/^		AP_Attributes attrib_;$/;"	m	class:AP_Entity
+bigFontFile	ap_property.h	/^    std::string bigFontFile;    \/** Big font file name *\/$/;"	m	class:AP_Style
+bold	ap_property.h	/^    bool bold;$/;"	m	class:AP_Style
+clear	ap_database.cpp	/^void AP_Database::clear()$/;"	f	class:AP_Database
+close	ap_save_dxf.cpp	/^void AP_Save_Dxf::close()$/;"	f	class:AP_Save_Dxf
+close	ap_save_lua.cpp	/^void AP_Save_Lua::close()$/;"	f	class:AP_Save_Lua
+color	ap_property.h	/^    int color;$/;"	m	class:AP_Attributes
+color24	ap_property.h	/^    int color24;$/;"	m	class:AP_Attributes
+create	ap_save_dxf.cpp	/^void AP_Save_Dxf::create(std::string file)$/;"	f	class:AP_Save_Dxf
+create	ap_save_lua.cpp	/^void AP_Save_Lua::create(std::string file)$/;"	f	class:AP_Save_Lua
+cx	ap_entity.h	/^		double cx;    \/*! X Coordinate of center point. *\/$/;"	m	class:AP_Circle
+cx	ap_entity.h	/^		double cx;\/*! X Coordinate of center point. *\/$/;"	m	class:AP_Arc
+cy	ap_entity.h	/^		double cy;    \/*! Y Coordinate of center point. *\/$/;"	m	class:AP_Arc
+cy	ap_entity.h	/^		double cy;    \/*! Y Coordinate of center point. *\/$/;"	m	class:AP_Circle
+cz	ap_entity.h	/^		double cz;    \/*! Z Coordinate of center point. *\/   $/;"	m	class:AP_Circle
+cz	ap_entity.h	/^		double cz;    \/*! Z Coordinate of center point. *\/$/;"	m	class:AP_Arc
+db_	main.cpp	/^AP_Database db_;$/;"	v
+description	ap_property.h	/^    std::string description;    \/** Linetype description *\/$/;"	m	class:AP_Linetype
+dw_	ap_save_dxf.h	/^		DL_WriterA* dw_;$/;"	m	class:AP_Save_Dxf
+dxf_	ap_save_dxf.h	/^		DL_Dxf* dxf_;$/;"	m	class:AP_Save_Dxf
+ents_	ap_database.h	/^		std::vector<AP_Entity*> ents_;$/;"	m	class:AP_Database
+fixedTextHeight	ap_property.h	/^    double fixedTextHeight;    \/** Fixed text height or 0 for not fixed. *\/$/;"	m	class:AP_Style
+flags	ap_property.h	/^    int flags;    \/** Linetype flags *\/$/;"	m	class:AP_Linetype
+flags	ap_property.h	/^    int flags;    \/** Style flags *\/$/;"	m	class:AP_Style
+flags	ap_property.h	/^    int flags;\/** Layer flags. (1 = frozen, 2 = frozen by default, 4 = locked) *\/$/;"	m	class:AP_Layer
+get_attrib	ap_entity.h	/^		AP_Attributes get_attrib() const {return attrib_;}$/;"	f	class:AP_Entity
+get_clor24	ap_property.h	/^    int get_clor24() const {$/;"	f	class:AP_Attributes
+get_color	ap_property.h	/^    int get_color() const {$/;"	f	class:AP_Attributes
+get_handle	ap_property.h	/^    int get_handle() const {$/;"	f	class:AP_Attributes
+get_layer	ap_property.h	/^    std::string get_layer() const {$/;"	f	class:AP_Attributes
+get_linetype	ap_property.h	/^    std::string get_linetype() const {$/;"	f	class:AP_Attributes
+get_linetypeScale	ap_property.h	/^    double get_linetypeScale() const {$/;"	f	class:AP_Attributes
+get_width	ap_property.h	/^    int get_width() const {$/;"	f	class:AP_Attributes
+hJustification	ap_entity.h	/^		int hJustification;$/;"	m	class:AP_Text
+handle	ap_property.h	/^    int handle;$/;"	m	class:AP_Attributes
+height	ap_entity.h	/^		double height;    \/*! Text height *\/$/;"	m	class:AP_Text
+inPaperSpace	ap_property.h	/^    bool inPaperSpace;$/;"	m	class:AP_Attributes
+ipx	ap_entity.h	/^		double ipx;\/*! X Coordinate of insertion point. *\/$/;"	m	class:AP_Text
+ipy	ap_entity.h	/^		double ipy;    \/*! Y Coordinate of insertion point. *\/$/;"	m	class:AP_Text
+ipz	ap_entity.h	/^		double ipz;    \/*! Z Coordinate of insertion point. *\/$/;"	m	class:AP_Text
+is_inPaperSpace	ap_property.h	/^    bool is_inPaperSpace() {$/;"	f	class:AP_Attributes
+italic	ap_property.h	/^    bool italic;$/;"	m	class:AP_Style
+lastHeightUsed	ap_property.h	/^    double lastHeightUsed;    \/** Last height used *\/$/;"	m	class:AP_Style
+layer	ap_property.h	/^    std::string layer;$/;"	m	class:AP_Attributes
+linetype	ap_property.h	/^    std::string linetype;$/;"	m	class:AP_Attributes
+linetypeScale	ap_property.h	/^    double linetypeScale;$/;"	m	class:AP_Attributes
+luaopen_apdraw	main.cpp	/^int luaopen_apdraw(lua_State* L) $/;"	f
+mylibs	main.cpp	/^static const struct  luaL_Reg mylibs[] = { $/;"	v	typeref:struct:luaL_Reg	file:
+name	ap_property.h	/^    std::string name;    \/** Linetype name *\/$/;"	m	class:AP_Linetype
+name	ap_property.h	/^    std::string name;    \/** Style name *\/$/;"	m	class:AP_Style
+name	ap_property.h	/^    std::string name;\/** Layer name. *\/    $/;"	m	class:AP_Layer
+numberOfDashes	ap_property.h	/^    int numberOfDashes;    \/** Number of dashes *\/$/;"	m	class:AP_Linetype
+obliqueAngle	ap_property.h	/^    double obliqueAngle;    \/** Oblique angle *\/$/;"	m	class:AP_Style
+operator ==	ap_property.h	/^    bool operator==(const AP_Style& other) {$/;"	f	class:AP_Style
+pattern	ap_property.h	/^    double* pattern;    \/** Pattern *\/$/;"	m	class:AP_Linetype
+patternLength	ap_property.h	/^    double patternLength;    \/** Pattern length *\/$/;"	m	class:AP_Linetype
+primaryFontFile	ap_property.h	/^    std::string primaryFontFile;    \/** Primary font file name *\/$/;"	m	class:AP_Style
+radius	ap_entity.h	/^		double radius;    \/*! Radius of arc. *\/$/;"	m	class:AP_Arc
+radius	ap_entity.h	/^		double radius; \/*! Radius of arc. *\/$/;"	m	class:AP_Circle
+save_appids	ap_save_dxf.cpp	/^void AP_Save_Dxf::save_appids()$/;"	f	class:AP_Save_Dxf
+save_blocks	ap_save_dxf.cpp	/^void AP_Save_Dxf::save_blocks()$/;"	f	class:AP_Save_Dxf
+save_dimstyles	ap_save_dxf.cpp	/^void AP_Save_Dxf::save_dimstyles()$/;"	f	class:AP_Save_Dxf
+save_dxf	ap_database.cpp	/^void AP_Database::save_dxf(std::string file)$/;"	f	class:AP_Database
+save_dxf	main.cpp	/^static int save_dxf(lua_State *L)$/;"	f	file:
+save_entities_end	ap_save_dxf.cpp	/^void AP_Save_Dxf::save_entities_end()$/;"	f	class:AP_Save_Dxf
+save_entities_start	ap_save_dxf.cpp	/^void AP_Save_Dxf::save_entities_start()$/;"	f	class:AP_Save_Dxf
+save_header	ap_save_dxf.cpp	/^void AP_Save_Dxf::save_header()$/;"	f	class:AP_Save_Dxf
+save_layers	ap_save_dxf.cpp	/^void AP_Save_Dxf::save_layers()$/;"	f	class:AP_Save_Dxf
+save_linetypes	ap_save_dxf.cpp	/^void AP_Save_Dxf::save_linetypes()$/;"	f	class:AP_Save_Dxf
+save_lua	ap_database.cpp	/^void AP_Database::save_lua(std::string file)$/;"	f	class:AP_Database
+save_styles	ap_save_dxf.cpp	/^void AP_Save_Dxf::save_styles()$/;"	f	class:AP_Save_Dxf
+save_views	ap_save_dxf.cpp	/^void AP_Save_Dxf::save_views()$/;"	f	class:AP_Save_Dxf
+set_attrib	ap_entity.h	/^		void set_attrib(const AP_Attributes &attrib){attrib_ = attrib;}$/;"	f	class:AP_Entity
+set_color	ap_property.h	/^    void set_color(int color) {$/;"	f	class:AP_Attributes
+set_color24	ap_property.h	/^    void set_color24(int color) {$/;"	f	class:AP_Attributes
+set_handle	ap_property.h	/^    void set_handle(int h) {$/;"	f	class:AP_Attributes
+set_inPaperSpace	ap_property.h	/^    void set_inPaperSpace(bool on) {$/;"	f	class:AP_Attributes
+set_layer	ap_property.h	/^    void set_layer(const std::string& layer) {$/;"	f	class:AP_Attributes
+set_linetype	ap_property.h	/^    void set_linetype(const std::string& linetype) {$/;"	f	class:AP_Attributes
+set_linetypeScale	ap_property.h	/^    void set_linetypeScale(double linetypeScale) {$/;"	f	class:AP_Attributes
+set_width	ap_property.h	/^    void set_width(int width) {$/;"	f	class:AP_Attributes
+style	ap_entity.h	/^		std::string style;    \/*! Style (font). *\/$/;"	m	class:AP_Text
+text	ap_entity.h	/^		std::string text;    \/*! Text string. *\/$/;"	m	class:AP_Text
+textGenerationFlags	ap_entity.h	/^		int textGenerationFlags;    \/*! 0 = default, 2 = Backwards, 4 = Upside down *\/$/;"	m	class:AP_Text
+textGenerationFlags	ap_property.h	/^    int textGenerationFlags;    \/** Text generation flags *\/$/;"	m	class:AP_Style
+vJustification	ap_entity.h	/^		int vJustification;$/;"	m	class:AP_Text
+visit_arc	ap_save_dxf.cpp	/^void AP_Save_Dxf::visit_arc(const AP_Arc &arc)$/;"	f	class:AP_Save_Dxf
+visit_arc	ap_save_lua.cpp	/^void AP_Save_Lua::visit_arc(const AP_Arc &arc)$/;"	f	class:AP_Save_Lua
+visit_arc	ap_visitor.h	/^	virtual void visit_arc(const AP_Arc &arc){;}$/;"	f	class:AP_Visitor
+visit_circle	ap_save_dxf.cpp	/^void AP_Save_Dxf::visit_circle(const AP_Circle &circle)$/;"	f	class:AP_Save_Dxf
+visit_circle	ap_save_lua.cpp	/^void AP_Save_Lua::visit_circle(const AP_Circle &circle)$/;"	f	class:AP_Save_Lua
+visit_circle	ap_visitor.h	/^	virtual void visit_circle(const AP_Circle &circle){;}$/;"	f	class:AP_Visitor
+visit_line	ap_save_dxf.cpp	/^void AP_Save_Dxf::visit_line(const AP_Line &ln)$/;"	f	class:AP_Save_Dxf
+visit_line	ap_save_lua.cpp	/^void AP_Save_Lua::visit_line(const AP_Line &ln)$/;"	f	class:AP_Save_Lua
+visit_line	ap_visitor.h	/^	virtual void visit_line(const AP_Line &ln){;}$/;"	f	class:AP_Visitor
+visit_text	ap_save_dxf.cpp	/^void AP_Save_Dxf::visit_text(const AP_Text &txt)$/;"	f	class:AP_Save_Dxf
+visit_text	ap_save_lua.cpp	/^void AP_Save_Lua::visit_text(const AP_Text &txt)$/;"	f	class:AP_Save_Lua
+visit_text	ap_visitor.h	/^	virtual void visit_text(const AP_Text &txt){;}$/;"	f	class:AP_Visitor
+width	ap_property.h	/^    int width;$/;"	m	class:AP_Attributes
+widthFactor	ap_property.h	/^    double widthFactor;    \/** Width factor *\/$/;"	m	class:AP_Style
+x	ap_entity.h	/^    double x;$/;"	m	class:AP_Point
+x1	ap_entity.h	/^		double x1; $/;"	m	class:AP_Line
+x2	ap_entity.h	/^		double x2;$/;"	m	class:AP_Line
+xScaleFactor	ap_entity.h	/^		double xScaleFactor;    \/*! Relative X scale factor. *\/$/;"	m	class:AP_Text
+y	ap_entity.h	/^    double y;$/;"	m	class:AP_Point
+y1	ap_entity.h	/^		double y1;$/;"	m	class:AP_Line
+y2	ap_entity.h	/^		double y2;$/;"	m	class:AP_Line
+z	ap_entity.h	/^    double z;$/;"	m	class:AP_Point
+z1	ap_entity.h	/^		double z1;$/;"	m	class:AP_Line
+z2	ap_entity.h	/^		double z2;$/;"	m	class:AP_Line
+~AP_Database	ap_database.cpp	/^AP_Database::~AP_Database()$/;"	f	class:AP_Database

@@ -1,0 +1,4 @@
+LIBRARY luadxf
+EXPORTS 
+luaopen_luadxf @1
+

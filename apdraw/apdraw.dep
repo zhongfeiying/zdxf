@@ -1,0 +1,17 @@
+ap_database.o: ap_database.cpp ap_database.h ap_global.h ap_entity.h \
+ ap_property.h ap_visitor.h ap_save_lua.h ap_save_dxf.h \
+ ../dxflib/DL_Dxf.h ../dxflib/dl_global.h ../dxflib/dl_attributes.h \
+ ../dxflib/dl_codes.h ../dxflib/dl_entities.h ../dxflib/dl_writer_ascii.h \
+ ../dxflib/dl_writer.h
+ap_entity.o: ap_entity.cpp
+ap_property.o: ap_property.cpp
+ap_save_dxf.o: ap_save_dxf.cpp ap_save_dxf.h ap_global.h ap_visitor.h \
+ ap_entity.h ap_property.h ../dxflib/DL_Dxf.h ../dxflib/dl_global.h \
+ ../dxflib/dl_attributes.h ../dxflib/dl_codes.h ../dxflib/dl_entities.h \
+ ../dxflib/dl_writer_ascii.h ../dxflib/dl_writer.h
+ap_save_lua.o: ap_save_lua.cpp ap_save_lua.h ap_global.h ap_visitor.h \
+ ap_entity.h ap_property.h
+main.o: main.cpp ap_database.h ap_global.h ap_entity.h ap_property.h \
+ ap_visitor.h C:/msys64/usr/local/include/lua.h \
+ C:/msys64/usr/local/include/luaconf.h \
+ C:/msys64/usr/local/include/lauxlib.h C:/msys64/usr/local/include/lua.h

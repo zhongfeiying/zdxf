@@ -1,0 +1,4 @@
+LIBRARY luagdi
+EXPORTS 
+luaopen_luagdi @1
+
